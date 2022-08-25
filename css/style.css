@@ -280,7 +280,6 @@ p{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 550px;
   z-index: 100;
 }
 .about-me__title {
@@ -1124,6 +1123,9 @@ p{
   background: #000;
   border-color: #fff;
 }
+.footer__link-box {
+  margin-right: 20px;
+}
 .footer__logos{
   position: absolute;
   top: 50%;
@@ -1162,4 +1164,16 @@ p{
   background: transparent;
   border-color: #fff;
   color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .footer__logos {
+    position: static;
+    transform: translate(0, 0);
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .footer__link-box {
+    margin-bottom: 25px;
+  }
 }

@@ -30,6 +30,9 @@ function changeLinkState() {
 for(let i of links) {
   i.addEventListener('click', () => {
     elModal.classList.remove('grow-height');
+    elLinethird.classList.remove("remove-line");
+    elLineOne.classList.remove("rotate-line1");
+    elLineThree.classList.remove("rotate-line3");
   })
 }
 

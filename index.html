@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  Short Icon  -->
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/3665/3665909.png" type="image/x-icon">
+    <title>Abdusamad</title>
+    <!-- Box Icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Canvas -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Global styles -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/flexboxgrid.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="hero" id="particles-js">
+      <header class="hero__header header">
+        <div class="header__row row middle-xs between-xs">
+          <a class="header__logo-link" href="index.html">
+            <span>A</span>bu<span>D</span>ev
+          </a>
+          <nav class="header__nav nav">
+            <ul class="nav__list row middle-xs between-xs">
+              <li class="nav__item nav__link--active">
+                <a class="nav__link" href="#">start</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#about">about me</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#my-offer">services</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#services">customers</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#portfolio">portfolio</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#contact">contact</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="menu-btn">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+          </button>
+        </div>
+      </header>
+      <div class="about-me">
+        <span class="about-me__desc">Hello</span>
+        <h2 class="about-me__title">I'm <span class="name"></span></h2>
+        <div style="text-align: center;">
+          <a class="about-me__cv" href="./cv/cv.pdf" download>Download CV</a>
+        </div>
+      </div>
+      <span class="scroll-down"
+        >scroll down
+        <span class="arrow-box">
+          <span class="arrow"></span>
+          <span class="arrow"></span>
+          <span class="arrow"></span>
+        </span>
+      </span>
+    </section>
+    <main>
+      <section class="about" id="about">
+        <div class="container">
+          <h2 class="about__title">HELLO, I AM ABDUSAMAD RAIMJONOV</h2>
+          <div class="row between-xs">
+            <div class="col-md-6 col-sm-12 col-xs-12 about__texts">
+              <h3 class="about__texts-title">SOME WORDS ABOUT ME</h3>
+              <p class="about__texts-desc">
+                Hi everyone, I am currently learning web programming at Najot
+                Ta'lim education.I am a junior programmer. I was born 2003 years
+                old. My future dream is to study the front end field perfectly,
+                help people and most importantly take my parents on a
+                pilgrimage.
+              </p>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 about__texts">
+              <h3 class="about__texts-title">MY SKILS</h3>
+              <ul class="about__texts__list"></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="my-offer" id="my-offer">
+        <div class="container">
+          <h2 class="my-offer__title">my offer</h2>
+          <ul class="my-offer__list row between-xs"></ul>
+        </div>
+      </section>
+      <section class="services" id="services">
+        <div class="container">
+          <ul class="services__list row between-xs"></ul>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <h2 class="portfolio__title">MY PORTFOLIO</h2>
+        <ul class="portfolio__menu-list row middle-xs">
+          <li class="portfolio__menu-item portfolio__menu-item1 portfolio__menu-item--active">all</li>
+          <li class="portfolio__menu-item portfolio__menu-item2">react</li>
+          <li class="portfolio__menu-item portfolio__menu-item3">html/css</li>
+          <li class="portfolio__menu-item portfolio__menu-item4">vue</li>
+        </ul>
+        <ul class="portfolio__list"></ul>
+      </section>
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2 class="contact__title">CONTACT ME</h2>
+          <div class="contact__row row">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+              <form
+                class="contact__form form"
+                action="https://echo.htmlacademy.ru/"
+                method="post"
+              >
+                <div class="form__inputs">
+                  <input
+                    class="form__input"
+                    type="text"
+                    name="User-name"
+                    required
+                    id="user-name"
+                    autocomplete="off"
+                  />
+                  <label class="form__label" for="user-name">name*</label>
+                </div>
+                <div class="form__inputs">
+                  <input
+                    class="form__input"
+                    type="email"
+                    name="User-email"
+                    required
+                    id="user-email"
+                    autocomplete="off"
+                  />
+                  <label class="form__label" for="user-email">e-mail*</label>
+                </div>
+                <div class="form__inputs">
+                  <input
+                    class="form__input"
+                    type="text"
+                    name="User-email"
+                    required
+                    id="user-email2"
+                    autocomplete="off"
+                  />
+                  <label class="form__label" for="user-email2">subject</label>
+                </div>
+                <div class="form__inputs">
+                  <textarea
+                    class="form__input form__textarea"
+                    name="user-message"
+                    id="user-message"
+                  ></textarea>
+                  <label class="form__label" for="user-message"
+                    >Type your message here*</label
+                  >
+                </div>
+                <button class="contact__btn">send message</button>
+              </form>
+            </div>
+            <div class="col-md-5 col-sm-12 col-xs-12 contact__text">
+              <h2 class="contact__text-title">FEEL FREE TO CONTACT WITH ME!</h2>
+              <p class="contact__text-desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptate dolores, quasi unde quisquam facilis at ullam aperiam
+                similique dicta voluptatibus!
+              </p>
+              <a class="contact__text-link tell" href="tel:997262347"
+                >+998 33 001 22 23</a
+              >
+              <a
+                class="contact__text-link email"
+                href="mailto: xusandadjonov4385@gmail.com"
+                >abdusamadweb@gmail.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__row row between-xs">
+          <div class="footer__link-box">
+            <a href="tel:+998330012223" class="contact__text-link tell footer__link"
+              >+998 33 001 22 23</a
+            >
+            <a href="mailto:abdusamadweb@gmail.com" class="contact__text-link email footer__link linkk"
+              >abdusamadweb@gmail.com</a
+            >
+          </div>
+          <div class="footer__logos">
+            <a class="header__logo-link" href="index.html">
+              <span>A</span>bu<span>D</span>ev
+            </a>
+            <p class="footer__desc">© 2021 ABUDEV - ALL RIGHTS RESERVED</p>
+          </div>
+          <div class="footer__icons icons-box">
+            <a
+              class="contact__text-link insta footer__link"
+              href="https://www.instagram.com/abdusamadweb"
+              target="_blank"
+            >
+              instagram.com/01samad_
+            </a>
+            <a
+              class="contact__text-link telegram footer__link linkk"
+              href="https://t.me/abdusamadweb"
+              target="_blank"
+            >
+              t.me/abdusamadpro
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/typed.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

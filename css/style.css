@@ -139,7 +139,7 @@ p{
   width: 100%;
   padding: 15px 30px;
   position: fixed;
-  z-index: 2;
+  z-index: 20;
   transition: background 0.4s ease;
 }
 .header-bg{
@@ -280,7 +280,8 @@ p{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 100;
+  min-width: 95vw;
+  z-index: 10;
 }
 .about-me__title {
   font-size: 64px;
@@ -508,7 +509,7 @@ p{
 }
 
 .my-offer {
-  padding: 70px 0 80px 0;
+  padding: 80px 0 80px 0;
   background: rgba(0, 0, 0, 0.08);
 }
 .my-offer__title {

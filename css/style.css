@@ -87,7 +87,7 @@ p{
 }
 @media only screen and (max-width:768px) {
   .hero {
-    background-attachment: none;
+    background-attachment: unset;
   }
 }
 

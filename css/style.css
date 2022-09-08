@@ -31,7 +31,7 @@ body {
   background-color: #f1b50e;
   border-radius: 0;
   background-image: -webkit-linear-gradient(
-0deg,rgba(255,255,255,.5) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.5) 50%,rgba(255,255,255,.5) 75%,transparent 75%,transparent);
+  0deg,rgba(255,255,255,.5) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.5) 50%,rgba(255,255,255,.5) 75%,transparent 75%,transparent);
 }
 
 
@@ -80,7 +80,6 @@ p{
   background-image: url("../img/hero-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position:center center;
   object-fit: cover;
   position: relative;

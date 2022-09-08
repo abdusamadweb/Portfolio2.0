@@ -80,10 +80,17 @@ p{
   background-image: url("../img/hero-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-position:center center;
   object-fit: cover;
   position: relative;
 }
+@media only screen and (max-width:768px) {
+  .hero {
+    background-attachment: none;
+  }
+}
+
 .line{
   position:absolute;
   display:block;

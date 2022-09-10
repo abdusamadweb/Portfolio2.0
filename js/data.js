@@ -54,15 +54,15 @@ const data = {
       img: '../img/elessi.png',
       title: 'ELESSI SHOP',
       github: 'https://github.com/abudamadweb/Elessi-Shop',
-      link: 'https://elessi-byabdusamad.netlify.app/',
+      link: 'https://elessi-shop.netlify.app/',
       category: 'react'
     },
     {
       id: 2,
-      img: '../img/kiwi.png',
-      title: 'KIWI SHOP',
-      github: 'https://compassionate-wing-2b700d.netlify.app/',
-      link: 'https://github.com/MrDeath22/Kivi-magazin',
+      img: '../img/orgflix.jpg',
+      title: 'Orgflix',
+      github: 'https://github.com/abdusamadweb/Orgflix',
+      link: 'https://orgflix.netlify.app/',
       category: 'react'
     },
     {
@@ -74,27 +74,27 @@ const data = {
       category: 'html'
     },
     {
-      id: 4,
-      img: '../img/freshio.png',
-      title: 'FRESHIO',
-      github: 'https://github.com/abdusamadweb/Freshio',
-      link: 'https://freshio-byabdusamad.netlify.app/',
-      category: 'html'
+      id: 3,
+      img: '../img/kiwi.png',
+      title: 'KIWI SHOP',
+      github: 'https://github.com/abdusamadweb/Kivi-magazin',
+      link: 'https://kiwi-shop.netlify.app/',
+      category: 'react'
     },
     {
-      id: 5,
+      id: 4,
       img: '../img/music-player.png',
       title: 'MUSIC PLAYER',
       github: 'https://github.com/abdusamadweb/Music-Player',
-      link: 'https://musing-neumann-30aaef.netlify.app/',
+      link: 'https://music-player1-react.netlify.app/',
       category: 'react'
     },
     {
       id: 6,
-      img: '../img/fresh2.png',
-      title: 'fresh',
-      github: 'https://github.com/abdusamadweb/Fresh1',
-      link: 'https://fresh1by-abdusamad.netlify.app/',
+      img: '../img/freshio.png',
+      title: 'FRESHIO',
+      github: 'https://github.com/abdusamadweb/Freshio',
+      link: 'https://freshio-byabdusamad.netlify.app/',
       category: 'html'
     },
     {
@@ -121,6 +121,14 @@ const data = {
       link: 'https://qashqadaryo-byabdusamad.netlify.app/',
       category: 'vue'
     },
+    {
+      id: 10,
+      img: '../img/fresh2.png',
+      title: 'fresh',
+      github: 'https://github.com/abdusamadweb/Fresh1',
+      link: 'https://fresh1by-abdusamad.netlify.app/',
+      category: 'html'
+    },
   ],
   react: [
     {
@@ -128,29 +136,37 @@ const data = {
       img: '../img/elessi.png',
       title: 'ELESSI SHOP',
       github: 'https://github.com/abudamadweb/Elessi-Shop',
-      link: 'https://elessi-byabdusamad.netlify.app/',
+      link: 'https://elessi-shop.netlify.app/',
       category: 'react'
     },
     {
       id: 2,
-      img: '../img/kiwi.png',
-      title: 'KIWI SHOP',
-      github: 'https://compassionate-wing-2b700d.netlify.app/',
-      link: 'https://github.com/MrDeath22/Kivi-magazin',
+      img: '../img/orgflix.jpg',
+      title: 'Orgflix',
+      github: 'https://github.com/abdusamadweb/Orgflix',
+      link: 'https://orgflix.netlify.app/',
       category: 'react'
     },
     {
-      id: 5,
+      id: 3,
+      img: '../img/kiwi.png',
+      title: 'KIWI SHOP',
+      github: 'https://github.com/abdusamadweb/Kivi-magazin',
+      link: 'https://kiwi-shop.netlify.app/',
+      category: 'react'
+    },
+    {
+      id: 4,
       img: '../img/music-player.png',
       title: 'MUSIC PLAYER',
       github: 'https://github.com/abdusamadweb/Music-Player',
-      link: 'https://musing-neumann-30aaef.netlify.app/',
+      link: 'https://music-player1-react.netlify.app/',
       category: 'react'
     },
   ],
   html: [
     {
-      id: 3,
+      id: 1,
       img: '../img/product.jpg',
       title: 'Product',
       github: 'https://github.com/abdusamadweb/Product',
@@ -158,7 +174,7 @@ const data = {
       category: 'html'
     },
     {
-      id: 4,
+      id: 2,
       img: '../img/freshio.png',
       title: 'FRESHIO',
       github: 'https://github.com/abdusamadweb/Freshio',
@@ -166,7 +182,7 @@ const data = {
       category: 'html'
     },
     {
-      id: 6,
+      id: 3,
       img: '../img/fresh2.png',
       title: 'fresh',
       github: 'https://github.com/abdusamadweb/Fresh1',
@@ -174,7 +190,7 @@ const data = {
       category: 'html'
     },
     {
-      id: 7,
+      id: 4,
       img: '../img/finswet.jpg',
       title: 'finswet',
       github: 'https://github.com/abdusamadweb/finsweet-myteam',
@@ -182,7 +198,7 @@ const data = {
       category: 'html'
     },
     {
-      id: 8,
+      id: 5,
       img: '../img/portfolio.png',
       title: 'portfolio',
       github: 'https://github.com/abdusamadweb/Portfolio',
@@ -192,7 +208,7 @@ const data = {
   ],
   vue: [
     {
-      id: 9,
+      id: 1,
       img: '../img/qashqadaryo.png',
       title: 'Qashqadaryo',
       github: 'https://github.com/abdusamadweb/Qashqadaryo-boshqarmasi',

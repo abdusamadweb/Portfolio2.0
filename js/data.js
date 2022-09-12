@@ -160,7 +160,7 @@ const data = {
       img: '../img/music-player.png',
       title: 'MUSIC PLAYER',
       github: 'https://github.com/abdusamadweb/Music-Player',
-      link: 'https://music-player1-react.netlify.app/',
+      link: 'https://music-player2-react.netlify.app/',
       category: 'react'
     },
   ],

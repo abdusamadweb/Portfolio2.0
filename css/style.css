@@ -193,7 +193,7 @@ p{
   position:absolute;
   right: 150%;
   transform: translate(50%,0);
-  height: 0.5px;
+  height: 1px;
   background: #fff;
   width: 70%;
   top: 6px;

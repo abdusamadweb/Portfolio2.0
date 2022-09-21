@@ -853,6 +853,7 @@ p{
 }
 .portfolio__links {
   position: absolute;
+  width: 30%;
   background: transparent;
   z-index: 24;
   display: flex;
@@ -875,6 +876,12 @@ p{
   color: #fff;
   font-size: 30px;
   border-radius: 10px;
+}
+
+@media screen and (max-width:1350px) {
+  .portfolio__links {
+    width: unset;
+  }
 }
 
 @media screen and (max-width:992px){

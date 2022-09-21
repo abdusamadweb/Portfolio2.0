@@ -185,7 +185,7 @@ p{
   height: 1px;
   background: #fff;
   width: 70%;
-  bottom: 6px;
+  bottom: 0.37rem;
   transition: all 0.4s ease;
 }
 .nav__item::after{
@@ -196,7 +196,7 @@ p{
   height: 1px;
   background: #fff;
   width: 70%;
-  top: 6px;
+  top: 0.37rem;
   transition: all 0.4s ease;
 }
 .nav__item:hover::before{
@@ -645,7 +645,7 @@ p{
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 3px;
-  line-height: 2em;
+  line-height: 1.5rem;
   font-family: var(--texts-font);
   font-weight: 700;
   margin: 10px 0;
@@ -853,7 +853,6 @@ p{
 }
 .portfolio__links {
   position: absolute;
-  width: 30%;
   background: transparent;
   z-index: 24;
   display: flex;

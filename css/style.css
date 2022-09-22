@@ -802,6 +802,7 @@ p{
   cursor: pointer;
   overflow: hidden;
   padding-bottom: 100%;
+  border: 1px solid #E0E0E0;
   background: #eee;
 }
 .portfolio__item:hover::before {

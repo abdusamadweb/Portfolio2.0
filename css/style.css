@@ -988,6 +988,8 @@ p{
 }
 .form__textarea{
   min-height: 150px;
+  max-height: 450px;
+  resize: vertical;
 }
 .contact__text {
   display: flex;

@@ -532,10 +532,10 @@ p{
   margin-bottom: 50px;
   font-weight: 500;
 }
-.my-offer__item{
+.my-offer__item {
   position: relative;
 }
-.my-offer__item::before{
+.my-offer__item::before {
   content: "";
   top: 0;
   left: 16px;
@@ -685,7 +685,7 @@ p{
 }
 
 @media screen and (max-width:992px){
-  .my-offer__item{
+  .my-offer__item:not(:last-child) {
     margin-bottom: 50px;
   }
 }
@@ -877,6 +877,12 @@ p{
   color: #fff;
   font-size: 30px;
   border-radius: 10px;
+}
+.portfolio__links a {
+  transition: opacity 0.2s ease;
+}
+.portfolio__links a:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width:1350px) {

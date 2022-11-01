@@ -215,5 +215,13 @@ const data = {
       link: 'https://qashqadaryo-byabdusamad.netlify.app/',
       category: 'vue'
     },
+    {
+      id: 2,
+      img: '../img/uic-test.png',
+      title: 'hr management',
+      github: 'https://github.com/abdusamadweb/uic-test',
+      link: 'https://uic-test.netlify.app/',
+      category: 'vue'
+    },
   ],
 }

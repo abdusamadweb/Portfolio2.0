@@ -670,7 +670,6 @@ p{
   width: 0;
   height: 1px;
   position: absolute;
-  top: 0.1px;
   left: 50%;
   transform: translate(-50%,0);
   background: var(--txt-color);

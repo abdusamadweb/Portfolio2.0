@@ -23,26 +23,26 @@ particlesJS('particles-js',
         },
         "image": {
           "src": "img/github.svg",
-          "width": 100,
-          "height": 100
+          "width": 50,
+          "height": 50
         }
       },
       "opacity": {
         "value": 0.5,
-        "random": false,
+        "random": true,
         "anim": {
-          "enable": true,
-          "speed": 10,
-          "opacity_min": 0.1,
-          "sync": false
+            "enable": true,
+            "speed": 0.5,
+            "opacity_min": 0.1,
+            "sync": false
         }
       },
       "size": {
-        "value": 5,
+        "value": 3.5,
         "random": true,
         "anim": {
           "enable": false,
-          "speed": 40,
+          "speed": 10,
           "size_min": 0.1,
           "sync": false
         }

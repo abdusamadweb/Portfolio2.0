@@ -275,13 +275,11 @@ p{
   }
 }
 
-
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
   }
 }
-
 
 .about-me {
   position: absolute;
@@ -307,6 +305,7 @@ p{
   color:var(--txt-color);
 }
 .about-me__cv {
+  position: relative;
   display: inline-block;
   font-weight: 300;
   padding: 12px 22px;
@@ -315,6 +314,40 @@ p{
   background: transparent;
   opacity: 0.6;
   transition: opacity 0.3s ease;
+}
+.about-me__cv::before {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 1px;
+  height: 1px;
+  display: block;
+  content: '';
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0px 0px 10px 3px rgb(255 255 255);
+  opacity: 1 !important;
+  animation: shadow  15s infinite linear;
+}
+@keyframes shadow {
+  0% {
+    left: -1;
+  }
+  39% {
+    left: 100%;
+    top: -1px;
+  }
+  51% {
+    top: 100%;
+    left: 100%;
+  }
+  89% {
+    top: 100%;
+    left: -1px;
+  }
+  100% {
+    top: -1px;
+  }
 }
 .about-me__cv:hover {
   opacity: 1;

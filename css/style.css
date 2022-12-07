@@ -317,8 +317,8 @@ p{
 }
 .about-me__cv::before {
   position: absolute;
-  top: -1px;
-  left: -1px;
+  top: -1%;
+  left: -1%;
   width: 1px;
   height: 1px;
   display: block;
@@ -331,11 +331,11 @@ p{
 }
 @keyframes shadow {
   0% {
-    left: -1;
+    left: -1%;
   }
   39% {
     left: 100%;
-    top: -1px;
+    top: -1%;
   }
   51% {
     top: 100%;
@@ -343,10 +343,10 @@ p{
   }
   89% {
     top: 100%;
-    left: -1px;
+    left: -1%;
   }
   100% {
-    top: -1px;
+    top: -1%;
   }
 }
 .about-me__cv:hover {

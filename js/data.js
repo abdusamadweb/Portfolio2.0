@@ -1,5 +1,5 @@
 const data = {
-  skills: ['HTML5', 'CSS3', 'Bootstrap5', 'Java Script', 'ReactJs', 'Redux', 'Redux Toolkit', 'Vue', 'VueX', 'Composition API', 'GIT', 'Axios', 'MUI'],
+  skills: ['HTML5', 'CSS3', 'Bootstrap5', 'Java Script ES5+', 'TypeScript', 'ReactJs', 'Redux', 'Redux Toolkit', 'Vue', 'VueX', 'Composition API', 'RESTful API', 'GIT', 'Axios', 'MUI', 'Tailwind CSS', 'WebSocket'],
   offers: [
     {
       id: 1,

@@ -1,5 +1,5 @@
 const data = {
-  skills: ['HTML5', 'CSS3', 'Bootstrap5', 'Java Script ES5+', 'TypeScript', 'ReactJs', 'Redux', 'Redux Toolkit', 'Vue', 'VueX', 'Composition API', 'RESTful API', 'GIT', 'Axios', 'MUI', 'Tailwind CSS', 'WebSocket'],
+  skills: ['HTML5', 'CSS3', 'Bootstrap5', 'Java Script ES5+', 'TypeScript', 'React J', 'Redux', 'Redux Toolkit', 'Vue', 'VueX', 'Composition API', 'RESTful API', 'GIT', 'Axios', 'MUI', 'Tailwind CSS', 'WebSocket'],
   offers: [
     {
       id: 1,
@@ -50,11 +50,11 @@ const data = {
   ],
   allproducts: [
     {
-      id: 1,
-      img: '../img/elessi.png',
-      title: 'ELESSI SHOP',
-      github: 'https://github.com/abudamadweb/Elessi-Shop',
-      link: 'https://elessi-shop.netlify.app/',
+      id: 123123,
+      img: '../img/alidoorf.png',
+      title: 'ALIDOORF',
+      github: 'https://github.com/abdusamadweb/AliDoorf-demo',
+      link: 'https://alidoorf-private.netlify.app/',
       category: 'react'
     },
     {
@@ -66,12 +66,20 @@ const data = {
       category: 'react'
     },
     {
-      id: 3,
-      img: '../img/product.jpg',
-      title: 'Product',
-      github: 'https://github.com/abdusamadweb/Product',
-      link: 'https://product-byabdusamad.netlify.app/',
-      category: 'html'
+      id: 12312312322221,
+      img: '../img/choynak.png',
+      title: 'CHOYNAK STUDY',
+      github: 'https://github.com/abdusamadweb/choynak',
+      link: 'https://choynak-study.netlify.app/',
+      category: 'react'
+    },
+    {
+      id: 1,
+      img: '../img/elessi.png',
+      title: 'ELESSI SHOP',
+      github: 'https://github.com/abudamadweb/Elessi-Shop',
+      link: 'https://elessi-shop.netlify.app/',
+      category: 'react'
     },
     {
       id: 3,
@@ -129,8 +137,32 @@ const data = {
       link: 'https://fresh1by-abdusamad.netlify.app/',
       category: 'html'
     },
+    {
+      id: 3,
+      img: '../img/product.jpg',
+      title: 'Product',
+      github: 'https://github.com/abdusamadweb/Product',
+      link: 'https://product-byabdusamad.netlify.app/',
+      category: 'html'
+    },
   ],
   react: [
+    {
+      id: 123123,
+      img: '../img/alidoorf.png',
+      title: 'ALIDOORF',
+      github: 'https://github.com/abdusamadweb/AliDoorf-demo',
+      link: 'https://alidoorf-private.netlify.app/',
+      category: 'react'
+    },
+    {
+      id: 12312312322221,
+      img: '../img/choynak.png',
+      title: 'CHOYNAK STUDY',
+      github: 'https://github.com/abdusamadweb/choynak',
+      link: 'https://choynak-study.netlify.app/',
+      category: 'react'
+    },
     {
       id: 1,
       img: '../img/elessi.png',
